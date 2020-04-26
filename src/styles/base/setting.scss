@@ -1,0 +1,10 @@
+// VARIABLES
+$sub-color: grey;
+$main-color: black;
+
+// MIXINS
+@mixin shrinkLabel {
+  top: -14px;
+  font-size: 12px;
+  color: $main-color;
+}

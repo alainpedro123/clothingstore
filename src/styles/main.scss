@@ -1,9 +1,17 @@
-@import "cart.scss";
-@import "collection-page.scss";
-@import "checkout.scss";
-@import "custom-button.scss";
-@import "form-input.scss";
-@import "header.scss";
-@import "homepage.scss";
-@import "shoppage.scss";
-@import "signin-signup.scss";
+@import "./base/base.scss";
+
+@import "./components/cart.scss";
+@import "./components/cart-icon.scss";
+@import "./components/custom-button.scss";
+@import "./components/form-input.scss";
+
+@import "./layout/header.scss";
+
+@import "./pages/contact.scss";
+@import "./pages/collection.scss";
+@import "./pages/checkout.scss";
+@import "./pages/home.scss";
+@import "./pages/shop.scss";
+@import "./pages/signin-signup.scss";
+
+@import "./base/setting.scss";
